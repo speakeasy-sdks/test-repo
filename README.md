@@ -7,7 +7,7 @@
 </div>
 
 <!-- Start SDK Installation -->
-# SDK Installation
+## SDK Installation
 
 ```bash
 pip install git+https://github.com/speakeasy-sdks/test-repo.git
@@ -16,8 +16,6 @@ pip install git+https://github.com/speakeasy-sdks/test-repo.git
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```python
 import scorecard_test
 
@@ -25,7 +23,7 @@ import scorecard_test
 s = scorecard_test.ScorecardTest()
 
 
-res = s.pets.create_pets()
+res = s.scorecard_test.create_run()
 
 if res.status_code == 200:
     # handle response
@@ -33,19 +31,14 @@ if res.status_code == 200:
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
-# Available Resources and Operations
+## Available Resources and Operations
 
+### [ScorecardTest SDK](docs/sdks/scorecardtest/README.md)
 
-## [pets](docs/sdks/pets/README.md)
-
-* [create_pets](docs/sdks/pets/README.md#create_pets) - Create a pet
-* [list_pets](docs/sdks/pets/README.md#list_pets) - List all pets
-* [show_pet_by_id](docs/sdks/pets/README.md#show_pet_by_id) - Info for a specific pet
+* [create_run](docs/sdks/scorecardtest/README.md#create_run) - Create a test run
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 

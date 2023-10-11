@@ -8,7 +8,7 @@ import scorecard_test
 s = scorecard_test.ScorecardTest()
 
 
-res = s.pets.create_pets()
+res = s.scorecard_test.create_run()
 
 if res.status_code == 200:
     # handle response
