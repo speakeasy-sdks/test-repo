@@ -9,7 +9,7 @@ generation:
     disableComments: false
     omitDescriptionIfSummaryPresent: false
   baseServerURL: ""
-  sdkClassName: scorecard-test
+  sdkClassName: scorecard
   singleTagPerOp: false
   tagNamespacingDisabled: false
 features:
