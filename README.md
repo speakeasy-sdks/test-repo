@@ -23,19 +23,23 @@ import scorecard_test
 s = scorecard_test.ScorecardTest()
 
 
-res = s.scorecard_test.create_run()
+res = s.pets.create_pets()
 
 if res.status_code == 200:
     # handle response
+    pass
 ```
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
 ## Available Resources and Operations
 
-### [ScorecardTest SDK](docs/sdks/scorecardtest/README.md)
 
-* [create_run](docs/sdks/scorecardtest/README.md#create_run) - Create a test run
+### [pets](docs/sdks/pets/README.md)
+
+* [create_pets](docs/sdks/pets/README.md#create_pets) - Create a pet
+* [list_pets](docs/sdks/pets/README.md#list_pets) - List all pets
+* [show_pet_by_id](docs/sdks/pets/README.md#show_pet_by_id) - Info for a specific pet
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->
