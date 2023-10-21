@@ -79,7 +79,7 @@ from scorecard_test.models import operations
 s = scorecard_test.ScorecardTest()
 
 req = operations.ShowPetByIDRequest(
-    pet_id='Bicycle',
+    pet_id='string',
 )
 
 res = s.pets.show_pet_by_id(req)
