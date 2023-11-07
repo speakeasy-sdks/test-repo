@@ -4,7 +4,6 @@
 ```python
 import scorecard_test
 
-
 s = scorecard_test.ScorecardTest()
 
 
