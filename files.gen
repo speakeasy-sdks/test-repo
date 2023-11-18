@@ -8,6 +8,7 @@ src/scorecard_test/utils/__init__.py
 src/scorecard_test/utils/retries.py
 src/scorecard_test/utils/utils.py
 src/scorecard_test/models/errors/sdkerror.py
+tests/helpers.py
 src/scorecard_test/models/operations/createpets.py
 src/scorecard_test/models/operations/listpets.py
 src/scorecard_test/models/operations/showpetbyid.py
