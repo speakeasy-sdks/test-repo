@@ -1,0 +1,48 @@
+lockVersion: 2.0.0
+id: 9d628674-bff8-482d-9b05-69049fe67164
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.6.1
+  configChecksum: fd447871358cc4b8fa6deb69dfab2ecb
+  repoURL: https://github.com/speakeasy-sdks/test-repo.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/test-repo.git
+features:
+  python:
+    core: 4.4.0
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/scorecard_test/sdkconfiguration.py
+  - src/scorecard_test/pets.py
+  - src/scorecard_test/sdk.py
+  - pylintrc
+  - setup.py
+  - src/scorecard_test/__init__.py
+  - src/scorecard_test/utils/__init__.py
+  - src/scorecard_test/utils/retries.py
+  - src/scorecard_test/utils/utils.py
+  - src/scorecard_test/models/errors/sdkerror.py
+  - tests/helpers.py
+  - src/scorecard_test/models/operations/createpets.py
+  - src/scorecard_test/models/operations/listpets.py
+  - src/scorecard_test/models/operations/showpetbyid.py
+  - src/scorecard_test/models/shared/error.py
+  - src/scorecard_test/models/shared/pet.py
+  - src/scorecard_test/models/__init__.py
+  - src/scorecard_test/models/errors/__init__.py
+  - src/scorecard_test/models/operations/__init__.py
+  - src/scorecard_test/models/shared/__init__.py
+  - docs/models/operations/createpetsresponse.md
+  - docs/models/operations/listpetsrequest.md
+  - docs/models/operations/listpetsresponse.md
+  - docs/models/operations/showpetbyidrequest.md
+  - docs/models/operations/showpetbyidresponse.md
+  - docs/models/shared/error.md
+  - docs/models/shared/pet.md
+  - docs/sdks/scorecardtest/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
