@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 9d628674-bff8-482d-9b05-69049fe67164
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.228.1
-  releaseVersion: 0.6.2
-  configChecksum: 1ff32f5bd0245f2cf6b73b60390b1732
+  generationVersion: 2.230.3
+  releaseVersion: 0.6.3
+  configChecksum: 7e3aae393c1633db2f169df85dbb52cf
   repoURL: https://github.com/speakeasy-sdks/test-repo.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-repo.git
