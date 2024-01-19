@@ -4,15 +4,15 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.233.2
-  releaseVersion: 0.6.3
-  configChecksum: 7e3aae393c1633db2f169df85dbb52cf
+  generationVersion: 2.237.2
+  releaseVersion: 0.6.4
+  configChecksum: 6ed98aaa934c88efe90a26670e680f26
   repoURL: https://github.com/speakeasy-sdks/test-repo.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-repo.git
 features:
   python:
-    core: 4.4.1
+    core: 4.4.2
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/scorecard_test/sdkconfiguration.py
