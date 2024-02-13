@@ -63,7 +63,7 @@ Handling errors in this SDK should largely match your expectations.  All operati
 
 ```python
 import scorecard_test
-from scorecard_test.models import shared
+from scorecard_test.models import errors, shared
 
 s = scorecard_test.ScorecardTest()
 
@@ -76,7 +76,7 @@ res = None
 try:
     res = s.pets.create_pets(req)
 except errors.SDKError as e:
-    print(e)  # handle exception
+    # handle exception
     raise(e)
 
 if res.status_code == 200:
