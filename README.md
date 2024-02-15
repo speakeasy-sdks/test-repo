@@ -27,7 +27,7 @@ s = scorecard_test.ScorecardTest()
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = s.pets.create_pets(req)
@@ -69,7 +69,7 @@ s = scorecard_test.ScorecardTest()
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = None
@@ -110,7 +110,7 @@ s = scorecard_test.ScorecardTest(
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = s.pets.create_pets(req)
@@ -134,7 +134,7 @@ s = scorecard_test.ScorecardTest(
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = s.pets.create_pets(req)

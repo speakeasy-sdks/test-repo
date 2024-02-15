@@ -21,7 +21,7 @@ s = scorecard_test.ScorecardTest()
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = s.pets.create_pets(req)
@@ -97,7 +97,7 @@ from scorecard_test.models import operations
 s = scorecard_test.ScorecardTest()
 
 req = operations.ShowPetByIDRequest(
-    pet_id='string',
+    pet_id='<value>',
 )
 
 res = s.pets.show_pet_by_id(req)
